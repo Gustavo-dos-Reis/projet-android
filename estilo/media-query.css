@@ -1,37 +1,37 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
 
-i#burger {
-    background-color: rgb(48, 48, 48);
-    color: white;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
-}
-
-i#burger:hover {
-    background-color: white;
-    color: black;
-}
+  i#burger {
+    display: none;
+  }  
 
 nav {
-    display: none;
+    display: block;
 }
 
-nav  > a {
+nav > ul {
+    text-align: left;
+}
+
+nav > ul > li {
+    display:inline-block;
+    border: 2px solid #2fa866;
+    border-radius: 5px;
+    
+}
+
+nav > ul > li > a {
     display: block;
-    padding: 10px;
     text-decoration: none;
-    background-color: rgb(87, 87, 87);
     color: white;
-    border-top: 2px solid gray;
     list-style-type: none;
 }
 
-nav > a:hover {
-   background-color: gray;
+
+
+nav > ul > li:hover {
+    background-color: #2fa866;
 }
 
 }

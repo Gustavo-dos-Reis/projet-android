@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px){
+
 
 
 
@@ -33,7 +33,7 @@
 }
 
 body{
-    background-color: var(--Cor0);
+    background-color: #83e1ad;
     font-family: var(--font-padrao);
 }
 
@@ -69,21 +69,44 @@ header > p {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
+i#burger {
+    background-color: #063d1e;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burger:hover {
+   color: #85e9b2;
+}
+
 nav {
     background-color: var(--Cor5);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.363);
 }
-nav > a {
-    color: var(--Cor1);
+
+nav > ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav > ul > li {
     padding: 10px;
+    border-top: 2px solid #2fa866;
+}
+
+nav > ul > li > a {
+    color: var(--Cor0);
     border-radius: 5px;
     text-decoration: none;
     font-weight:bold;
     transition-duration: .5s;
 }
 
-nav > a:hover {
+nav > ul > li:hover {
     background-color:var(--Cor3);
 }
 
@@ -210,4 +233,3 @@ footer a:hover {
     color: var(--Cor1); 
 }
 
-}
