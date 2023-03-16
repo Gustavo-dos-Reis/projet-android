@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px){
+
+i#burger {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burger:hover {
+    background-color: white;
+    color: black;
+}
+
+nav {
+    display: none;
+}
+
+nav  > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    border-top: 2px solid gray;
+    list-style-type: none;
+}
+
+nav > a:hover {
+   background-color: gray;
+}
+
+}
+

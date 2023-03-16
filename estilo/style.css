@@ -1,4 +1,9 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 768px){
+
+
+
 @font-face {
     font-family:'Bebas Neue';
     src:url('../fontes/BebasNeue-Regular.otf') format('opentype'), url('../fontes/BebasNeue-Regular.ttf') format('truetype');
@@ -205,3 +210,4 @@ footer a:hover {
     color: var(--Cor1); 
 }
 
+}
